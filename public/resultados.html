@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Resultados | Corrida De Robôs</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+
+        <div class="container cabecalho-conteudo">
+
+            <a href="index.html" class="logo">
+                <div class="logo-simbolo">🏁</div>
+
+                <div class="logo-nome">
+                    <strong>Corrida De Robôs</strong>
+                </div>
+            </a>
+
+            <nav class="menu">
+
+                <a href="index.html" class="menu-link">
+                    Início
+                </a>
+
+                <a href="robos.html" class="menu-link">
+                    Robôs
+                </a>
+
+                <a href="competicao.html" class="menu-link">
+                    Competição
+                </a>
+
+                <a href="resultados.html" class="menu-link ativo">
+                    Resultados
+                </a>
+
+            </nav>
+
+            <button class="menu-mobile" aria-label="Abrir menu">
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- TÍTULO -->
+        <section class="pagina-resultados">
+
+            <div class="container">
+
+                <div class="titulo-pagina">
+
+                    <span class="titulo-pequeno">
+                        RANKING
+                    </span>
+
+                    <h1>
+                        Resultados
+                    </h1>
+
+                    <p>
+                        Confira a classificação, os melhores tempos e o histórico
+                        das partidas realizadas durante a competição.
+                    </p>
+
+                </div>
+
+
+                <!-- RESUMO -->
+                <div class="resumo-resultados">
+
+                    <div class="resumo-item">
+
+                        <span>PARTICIPANTES</span>
+
+                        <strong id="total-participantes">
+                            0
+                        </strong>
+
+                    </div>
+
+
+                    <div class="resumo-item">
+
+                        <span>PARTIDAS</span>
+
+                        <strong id="total-partidas">
+                            0
+                        </strong>
+
+                    </div>
+
+
+                    <div class="resumo-item">
+
+                        <span>MELHOR TEMPO</span>
+
+                        <strong id="melhor-tempo">
+                            --:--.--
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CLASSIFICAÇÃO -->
+                <section class="secao-resultados">
+
+                    <div class="cabecalho-secao">
+
+                        <div>
+                            <span class="titulo-pequeno">
+                                CLASSIFICAÇÃO
+                            </span>
+
+                            <h2>
+                                Melhores tempos da competição
+                            </h2>
+                        </div>
+
+                    </div>
+
+
+                    <div class="tabela-container">
+
+                        <table class="tabela-resultados">
+
+                            <thead>
+
+                                <tr>
+                                    <th>Posição</th>
+                                    <th>Equipe</th>
+                                    <th>Robô</th>
+                                    <th>Melhor tempo</th>
+                                </tr>
+
+                            </thead>
+
+                            <tbody id="tabela-classificacao">
+                                <tr>
+                                    <td colspan="4" class="mensagem-tabela">
+                                        Carregando classificação...
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                    <p id="mensagem-resultados" class="mensagem-resultados" aria-live="polite"></p>
+
+                </section>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+
+        <div class="container">
+
+            <div class="rodape-conteudo">
+
+                <div>
+                    <strong>Competição de Robôs Segue-Faixa</strong>
+                </div>
+
+                <span>
+                    Feira Técnica • 2026
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/resultados.js"></script>
+
+</body>
+
+</html>

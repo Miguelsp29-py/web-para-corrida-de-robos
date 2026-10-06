@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Competição | Corrida De Robôs</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="cabecalho">
+
+    <div class="container cabecalho-conteudo">
+
+        <a href="index.html" class="logo">
+            <div class="logo-simbolo">🏁</div>
+
+            <div class="logo-nome">
+                <strong>Corrida De Robôs</strong>
+            </div>
+        </a>
+
+        <nav class="menu">
+
+            <a href="index.html" class="menu-link">
+                Início
+            </a>
+
+            <a href="robos.html" class="menu-link">
+                Robôs
+            </a>
+
+            <a href="competicao.html" class="menu-link ativo">
+                Competição
+            </a>
+
+            <a href="resultados.html" class="menu-link">
+                Resultados
+            </a>
+
+        </nav>
+
+        <button class="menu-mobile" aria-label="Abrir menu">
+            ☰
+        </button>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <section class="pagina-competicao">
+
+        <div class="container">
+
+            <!-- TÍTULO -->
+
+            <div class="titulo-pagina">
+
+                <span class="titulo-pequeno">
+                    PARTIDA
+                </span>
+
+                <h1>
+                    Preparar partida
+                </h1>
+
+                <p>
+                    Cadastre as equipes e escolha qual robô será utilizado
+                    por cada participante.
+                </p>
+
+            </div>
+
+
+            <!-- EQUIPES -->
+
+            <div class="equipes-partida">
+
+
+                <!-- EQUIPE 1 -->
+
+                <div class="card-equipe">
+
+                    <div class="numero-equipe">
+                        01
+                    </div>
+
+                    <div class="conteudo-equipe">
+
+                        <span class="titulo-pequeno">
+                            EQUIPE 1
+                        </span>
+
+                        <h2>
+                            Primeira equipe
+                        </h2>
+
+                        <div class="campo">
+
+                            <label for="equipe1">
+                                Nome da equipe
+                            </label>
+
+                            <input
+                                type="text"
+                                id="equipe1"
+                                placeholder="Digite o nome da equipe"
+                            >
+
+                        </div>
+
+
+                        <div class="campo">
+
+                            <label for="robo1">
+                                <h2>Robô Azul 🟦</h2>
+                            </label>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- EQUIPE 2 -->
+
+                <div class="card-equipe">
+
+                    <div class="numero-equipe">
+                        02
+                    </div>
+
+                    <div class="conteudo-equipe">
+
+                        <span class="titulo-pequeno">
+                            EQUIPE 2
+                        </span>
+
+                        <h2>
+                            Segunda equipe
+                        </h2>
+
+                        <div class="campo">
+
+                            <label for="equipe2">
+                                Nome da equipe
+                            </label>
+
+                            <input
+                                type="text"
+                                id="equipe2"
+                                placeholder="Digite o nome da equipe"
+                            >
+
+                        </div>
+
+
+                        <div class="campo">
+
+                            <label for="robo2">
+                                <h2>Robô Vermelho 🟥</h2>
+                            </label>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- BOTÃO -->
+
+            <div class="iniciar-partida">
+
+                <p id="mensagem-partida">
+                    Cadastre pelo menos uma equipe para iniciar.
+                </p>
+
+                <button
+                    id="btn-iniciar-partida"
+                    class="botao-principal"
+                >
+                    Iniciar partida
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="rodape">
+
+    <div class="container">
+
+        <div class="rodape-conteudo">
+
+            <div>
+
+                <strong>
+                    Competição de Robôs Segue-Faixa
+                </strong>
+
+            </div>
+
+            <span>
+                Feira Técnica • 2026
+            </span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="js/competicao.js"></script>
+</body>
+
+</html>

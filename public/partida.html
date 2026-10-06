@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Partida | Corrida De Robôs</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+<header class="cabecalho">
+
+    <div class="container cabecalho-conteudo">
+
+        <a href="index.html" class="logo">
+            <div class="logo-simbolo">🏁</div>
+
+            <div class="logo-nome">
+                <strong>Corrida De Robôs</strong>
+            </div>
+        </a>
+
+        <nav class="menu">
+
+            <a href="index.html" class="menu-link">
+                Início
+            </a>
+
+            <a href="robos.html" class="menu-link">
+                Robôs
+            </a>
+
+            <a href="competicao.html" class="menu-link ativo">
+                Competição
+            </a>
+
+            <a href="resultados.html" class="menu-link">
+                Resultados
+            </a>
+
+        </nav>
+
+        <button class="menu-mobile" aria-label="Abrir menu">
+            ☰
+        </button>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<section class="pagina-partida">
+
+    <div class="container">
+
+        <div class="titulo-pagina">
+
+            <span class="titulo-pequeno">
+                PARTIDA
+            </span>
+
+            <h1>
+                Corrida em andamento
+            </h1>
+
+        </div>
+
+
+        <!-- EQUIPES -->
+
+        <div class="participantes-partida">
+
+            <div class="participante">
+
+                <span id="nome-azul">
+                    -
+                </span>
+
+                <h2 id="tempo-azul">
+                    -
+                </h2>
+
+                <p>
+                    Robô AZUL
+                </p>
+
+            </div>
+
+
+            <div class="participante">
+
+                <span id="nome-vermelho">
+                    -
+                </span>
+
+                <h2 id="tempo-vermelho">
+                    -
+                </h2>
+
+                <p>
+                    Robô VERMELHO
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- CRONÔMETRO -->
+
+        <div class="cronometro">
+
+            <div id="tempo">
+                00:00.00
+            </div>
+
+            <div class="botoes-cronometro">
+
+                <button
+                    id="btn-iniciar/parar"
+                    class="botao-principal"
+                >
+                    Iniciar
+                </button>
+
+                <button
+                    id="btn-finalizar"
+                    class="botao-finalizar"
+                    disabled
+                >
+                    Finalizar
+                </button>
+
+            </div>
+
+            <p id="mensagem-finalizacao" aria-live="polite"></p>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer class="rodape">
+
+    <div class="container">
+
+        <div class="rodape-conteudo">
+
+            <div>
+
+                <strong>
+                    Competição de Robôs Segue-Faixa
+                </strong>
+
+            </div>
+
+            <span>
+                Feira Técnica • 2026
+            </span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="js/partida.js"></script>
+</body>
+
+</html>
